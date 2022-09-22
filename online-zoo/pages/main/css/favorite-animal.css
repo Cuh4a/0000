@@ -1,0 +1,85 @@
+.favorite-animal {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.animal__image {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 780px;
+    background: url(../../../assets/images/main-panda.png) no-repeat;
+    margin: 0 auto;
+    background-position: 0px -80px;
+}
+
+.container__animal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.animal__ellispe {
+    position: relative;
+    width: 40.08%;
+    min-height: 465px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    margin-right: 108px;
+    margin-top: 12px;
+}
+
+
+.ellipse__box {
+    position: absolute;
+    width: 500.31px;
+    height: 400px;
+    left: 73px;
+    top: 0px;
+    text-align: center;
+}
+
+.ellipse__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.656rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 72px;
+}
+
+
+
+.ellipse__text span {
+    color: #FFEE2E;
+}
+
+.animal__btn {
+    width: 25.68%;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 69px;
+    margin-right: 99px;
+    padding: 17px 20px;
+}
+
+
+.animal__btn button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: transparent;
+}
