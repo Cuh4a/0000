@@ -1,0 +1,91 @@
+.thebackstage {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.thebackstage__left-img {
+    width: 12.687%;
+    /* max-width: 203px; */
+    min-height: 605px;
+    background: url(../../../assets/images/flowers/flower-wildernessworld.png) no-repeat;
+    background-position: 0px 0px;
+    margin-top: -69px;
+    float: right;
+}
+
+.container__thebackstage {
+    display: flex;
+    justify-content: space-between;
+    width: 73.75%;
+    /* max-width: 1180px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding-top: 60px;
+    margin-right: -50px;
+    gap: 0px;
+}
+
+.thebackstage__img {
+    width: 51.61%;
+    min-height: 402px;
+    background: url(../../../assets/images/wildernessworld.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin: 0.4px 0px 0px 2px;
+}
+
+.thebackstage__box {
+    width: 41.10%;
+    min-height: 402px;
+    align-self: center;
+    /* border: 1px solid black; */
+}
+
+.box__title {
+    padding-bottom: 20px;
+}
+
+.box__title h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    color: #333B41;
+
+}
+
+.box__text :nth-child(1){
+    padding-bottom: 50px;
+}
+
+.box__text {
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.box__text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #333B41;
+}
+
+.box__subtitle {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-bottom: 34px;
+}
+
+.box__subtitle p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1/81rem;
+    color: #333B41;
+}
