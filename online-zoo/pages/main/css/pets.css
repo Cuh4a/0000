@@ -20,7 +20,7 @@
 }
 
 .slider {
-    width: 99.6%;
+    width: 1158px;
     overflow: hidden;
 }
 
@@ -148,6 +148,7 @@
 .item__card:hover .card__img img {
     transform: scale(1.05)
 }
+
 /* ======================================================= */
 
 

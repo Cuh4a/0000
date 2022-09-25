@@ -1,0 +1,207 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8.75rem 0 11.25rem 0;
+}
+
+
+.container__testimonials {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonials__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.937rem;
+    text-align: center;
+    color: #333B41;
+}
+
+.testimonials__slider {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    padding-top: 2.937rem;
+}
+
+.slider__slide {
+    width: 22.2%;
+    min-width: 268px;
+    min-height: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    border-radius: 25px;
+    background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.slide__fon {
+    width: 262px;
+    height: 385px;
+    border-radius: 25px;
+    margin: 2px 2px;
+    background: #F1F3F2;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 19px;
+    overflow: hidden;
+}
+
+
+.slide__info {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.slide__info-img {
+    width: 37px;
+    height: 37px;
+    margin-top: -5px;
+    margin-left: -2px;
+}
+
+.slide__info-user {
+    display: block;
+    padding: 0 0 0rem 0.64rem;
+}
+
+.info__user-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.187rem;
+    color: #000000;
+    width: 139px;
+}
+
+.info__user-loc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.937rem;
+    line-height: 1.125rem;
+    color: #BDBDBD;
+}
+
+.slide__info-dat {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.937rem;
+    line-height: 1.125rem;
+    color: #BDBDBD;
+    padding-top: 15px;
+    margin-left: -15px;
+}
+
+.slide__info-dat span {
+
+    margin-left: -22px;
+}
+
+.slide__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.937rem;
+    line-height: 1.125rem;
+    color: #767474;
+    padding: 8px 0 0 0;
+    letter-spacing: -0.01em;
+}
+
+.pickandfeed__range {
+    width: 600px;
+    margin-top: 15px;
+}
+
+
+input[type='range'] {
+    overflow: hidden;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #F5F7F6;
+    border-radius: 5px;
+    height: 8px;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #FE9013;
+    margin-top: -1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 15px;
+    -webkit-appearance: none;
+    height: 8px;
+    cursor: pointer;
+    background: #FE9013;
+    box-shadow: -78px 0 0 78px #FE9013;
+    border-radius: 5px;
+}
+
+.pickandfeed__btn {
+    width: 298px;
+    height: 54px;
+    align-self: flex-start;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+.pickandfeed__btn button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #FFFFFF;
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0;
+}
+
+.pickandfeed__foto {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    width: 100%;
+    max-width: 1600px;
+    height: 300px;
+    background: transparent;
+    margin-top: -100px ;
+}
+
+.foto__palm {
+    background: url(../../../assets/images/flowers/leav-wordnessworld.png) no-repeat;
+    width: 300.92px;
+    height: 295.45px;
+    background-position: 55px 2px;
+}

@@ -1,0 +1,161 @@
+.pickandfeed {
+    width: 100%;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    padding: 4.375rem 0 6.20rem 0;
+}
+
+.container__pickandfeed {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+.pickandfeed-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.pickandfeed__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.625rem;
+    text-align: center;
+    color: #FE9013;
+    padding: 2.56rem 0 0 0;
+}
+
+.pickandfeed__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.812rem;
+    color: #333B41;
+    padding: 1.875rem 0 0 6.25rem;
+    align-self: flex-start;
+}
+
+.pickandfeed__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.312rem;
+    color: #333B41;
+    text-align: left;
+    padding: 2.5rem 0 0 6.25rem;
+}
+
+.text-up {
+    font-weight: 500;
+}
+
+.text-down {
+    width: 82%;
+    padding: 0.625rem 0 0 0;
+    font-weight: 400;
+}
+
+.text-down a {
+    border-bottom: 1px solid #FE9013;
+}
+
+
+
+.pickandfeed__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65.94%;
+    /* border: 1px solid black; */
+    margin: 3.75rem 0 0 0;
+}
+
+.pickandfeed__box-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.937rem;
+    color: #333B41;
+}
+
+/* 764px */
+.pickandfeed__box-pay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 3.926%;
+    padding: 2.5rem 0 0 0;
+}
+
+.box__pay-card {
+    width: 21.989%;
+    height: 244px;
+    text-align: center;
+}
+
+.pay__card-img {
+    width: 168px;
+    height: 168px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #FE9013;
+
+}
+
+.img__card-pay {
+    padding: 3.375rem 0;
+}
+
+.img__card-monkey {
+    padding: 2.8rem 1.18rem;
+}
+
+.img__card-zoo {
+    padding: 2.35rem 2.5rem 2.187rem 2.5rem;
+}
+
+.pay__card-text {
+    padding: 1.875rem 0 0 0;
+    text-align: left;
+}
+
+.box__pay-img {
+    margin-top: -5.625rem;
+}
+
+.pickandfeed__button {
+    width: 298px;
+    height: 54px;
+    margin-top: 3.75rem;
+    margin-bottom: 3.687rem;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    text-align: center;
+    /* padding: 1rem 0; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.pickandfeed__button:hover {
+    transition: 0.4s;
+    background: #E47209;
+}
