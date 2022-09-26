@@ -3,6 +3,7 @@
     background: #000000;
     color: var(--white-text-color);
     margin-top: -1.25rem;
+    min-height: 443px;
 }
 
 .container__footer {
@@ -151,6 +152,10 @@ input[type=submit] {
     gap: 0.200rem;
 }
 
+.box__icons:hover {
+    cursor: pointer;
+}
+
 .box__icons {
     display: flex;
     justify-content: flex-start;
@@ -159,9 +164,7 @@ input[type=submit] {
     gap: 5px;
     padding-top: 7px;
 }
-.box__icons:hover{
-  cursor: pointer;
-}
+
 .icon__circle {
     width: 26px;
     height: 26px;

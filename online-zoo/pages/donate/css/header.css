@@ -1,0 +1,108 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    background: #000000;
+    color: var(--white-text-color);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1160px;
+    height: 80px;
+    margin: 0 auto;
+    gap: 3.93rem;
+}
+
+.header__logo {
+    width: 7.06%;
+}
+
+.logo__boxs {
+    width: 82px;
+    height: 52px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.logo__box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1.18841px solid #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.07em;
+}
+
+.box__text-logo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1, 188rem;
+    line-height: 1.43rem;
+    padding-top: 1px;
+}
+
+.box__icon {
+    position: absolute;
+    left: 6px;
+    top: 21px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: 1px solid black;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    gap: 3.62rem;
+}
+
+.nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.nav__link-active {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    cursor:default;
+}
+
+.nav__link:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: all;
+}
+
+.logo-figma:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: all;
+}
+
+.burger {
+    display: none;
+}

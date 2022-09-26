@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Online-Zoo</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <div class="logo__boxs">
+                    <a href="../../../index.html" class="logo__link">
+                        <div class=" logo__box">
+                            <h1 class="box__text-logo">PetStory online</h1>
+                            <img src="../../assets/icons/bamboo.svg" class="box__icon" alt="иконка бамбука">
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item">
+                        <a class="nav__link" href="../../../index.html">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Map</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Zoos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link nav__link-active" href="#">Donate</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Contact us</a>
+                    </li>
+                </ul>
+                <div class="header__logo-figma">
+                    <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=0%3A1"
+                        class="logo-figma">Designed by ©</a>
+                </div>
+            </nav>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="photo-fon">
+            <div class="fon"></div>
+        </section>
+
+        <section class="pickfriend">
+            <div class="container__pickfriend">
+                <div class="pickfriend__title">
+                    <h2>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h2>
+                </div>
+                <div class="pickfriend__text">
+                    <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with
+                        educational programs and public
+                        and private events cancelled or postponed for additional months. We need you now more than ever
+                        to help ensure that we
+                        overcome these challenges. We have been actively raising funds in the community, and we are
+                        grateful for the generosity.
+                        But much more support is still needed, and we need your help! Please consider a gift today – no
+                        matter what size – to
+                        help us sustain our mission.</p>
+                </div>
+                <div class="pickfriend__subtitle">
+                    <h3>Donation Information</h3>
+                </div>
+                <div class="pickfriend__donate">
+                    <div class="donate__container ">
+                        <div class="donate__subtitle">
+                            <h2>Pick and feed a friend</h2>
+                        </div>
+                        <div class="donate__text">
+                            <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                        </div>
+                        <div class="donate__images">
+                            <div class="donate__images-count">
+                                <p class="count__number">4</p>
+                                <p class="count__text">Panda diet for the day.</p>
+                            </div>
+                            <div class="donate__images-icon">
+                                <img src="../../assets/icons/Xicon.png" alt="icon X">
+                            </div>
+                            <div class="donate__images-img">
+                                <img src="../../assets/icons/animals-icons-default/panda_widget1.svg"
+                                    alt=" panda widget">
+                            </div>
+                        </div>
+                        <div class="pickfriend__amount">
+                            <p>Amount</p>
+                        </div>
+                        <div class="pickfriend__bar">
+                            <div class="bar">
+                                <progress value="0" min="10" max="100"></progress>
+                            </div>
+                            <div class="bar__circle">
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                                <div class="circle circle__checked">
+                                    <div></div>
+                                </div>
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                                <div class="circle">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="bar__costs">
+                                <div class="bar__cost"><span>$</span>5000</div>
+                                <div class="bar__cost"><span>$</span>2000</div>
+                                <div class="bar__cost"><span>$</span>1000</div>
+                                <div class="bar__cost"><span>$</span>500</div>
+                                <div class="bar__cost"><span>$</span>250</div>
+                                <div class="bar__cost"><span>$</span>100</div>
+                                <div class="bar__cost"><span>$</span>50</div>
+                                <div class="bar__cost"><span>$</span>25</div>
+                            </div>
+                        </div>
+
+                        <div class="pickfriend__amounts">
+                            <div class="amounts__another">
+                                <input type="number" minlength="4" name="" id="" placeholder="Another amount"> <img
+                                    src="../../assets/icons/dollar.svg" alt="cost">
+                            </div>
+                            <div class="amounts__radio">
+                                <div class="radio-item radio-item-left"><input type="radio" name="ritem" id="ritema" value="ropt1">
+                                    <label for="ritema">Monthly</label>
+                                </div>
+                                <div class="radio-item"><input type="radio" name="ritem" id="ritemb" value="ropt2">
+                                    <label for="ritemb">Once</label>
+                                </div>
+                            </div>
+                            <div class="amounts__button">
+                                <button>Feed a friend now</button>
+                            </div>
+                            <div class="amounts__text">
+                                <p>Share with your friends on social networks</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container__footer">
+            <div class="footer__box">
+                <div class="footer__box-up">
+                    <div class="footer__box-logo">
+                        <div class="logo__boxs">
+                            <a href="../../../index.html" class="logo__link">
+                                <div class=" logo__box">
+                                    <h1 class="box__text-logo">PetStory online</h1>
+                                    <img src="../../assets/icons/bamboo.svg" class="box__icon" alt="иконка бамбука">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__box-email">
+                        <div class="footer__box-title">
+                            <h5>Subscribe to our news</h5>
+                        </div>
+                        <div class="box__email-enter">
+                            <form onsubmit="" class="form">
+                                <input type="email" name="Enter" id="email" value="Enter your email"
+                                    required="required">
+                                <input type="submit" value="Submit" name="Enter">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__button">
+                    <form action="./index.html"><button class="footer__button-btn">donate for
+                            volunteers</button>
+                    </form>
+                </div>
+                <div class="footer__box-down">
+                    <div class="footer__box-icons">
+                        <div class="box__icons">
+                            <div class="icon__circle">
+                                <img src="../../assets/icons/social-icons/social-facebook.svg" alt="icon facebook"
+                                    class="circle-facebook">
+                            </div>
+                            <div class="icon__text">
+                                <p>Facebook</p>
+                            </div>
+                        </div>
+                        <div class="box__icons">
+                            <div class="icon__circle">
+                                <img src="../../assets/icons/social-icons/social-twitter.svg" alt="icon twitter"
+                                    class="circle-twitter">
+                            </div>
+                            <div class="icon__text">
+                                <p>Twitter</p>
+                            </div>
+                        </div>
+                        <div class="box__icons">
+                            <div class="icon__circle">
+                                <img src="../../assets/icons/social-icons/social-insta.svg" alt="icon Instagram"
+                                    class="circle-instagram">
+                            </div>
+                            <div class="icon__text">
+                                <p>Instagram</p>
+                            </div>
+                        </div>
+                        <div class="box__icons">
+                            <div class="icon__circle">
+                                <img src="../../assets/icons/social-icons/social-youtube.svg" alt="icon YouTube"
+                                    class="circle-youtube">
+                            </div>
+                            <div class="icon__text">
+                                <p>YouTube</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__box-nav">
+                        <nav class="box__nav">
+                            <ul class="box__navigat">
+                                <li class="navigat__item">
+                                    <a class="item__link" href="../../../index.html">About</a>
+                                </li>
+                                <li class="navigat__item">
+                                    <a class="item__link" href="#">Map</a>
+                                </li>
+                                <li class="navigat__item">
+                                    <a class="item__link" href="#">Zoos</a>
+                                </li>
+                                <li class="navigat__item">
+                                    <a class="item__link" href="#">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>

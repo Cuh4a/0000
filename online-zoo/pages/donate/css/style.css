@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,&display=swap');
+@import 'header.css';
+@import 'footer.css';
+@import 'pickfriend.css';
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  
+}
+
+
+:root {
+  --main-text-color: #333B41;
+  --main-bg-color: #FFFFFF;
+  --card-text-color: #000000;
+  --btn-text-color: #FFFFFF;
+  --orange-text-color: #FE9013;
+  --yellow-text-color: #FFEE2E;
+  --white-text-color: #FFFFFF;
+  --user-maintext-color: #767474;
+  --user-text-color: #BDBDBD;
+  --footer-bg-color: #111115;
+}
+
+.photo-fon {
+  width: 100%;
+}
+
+.fon {
+  width: 100%;
+  max-width: 1600px;
+  min-height: 386px;
+  background: url(../../../assets/images/donate-panda.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+}
