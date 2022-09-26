@@ -3,5 +3,5 @@ let range = document.querySelector('input');
 scrollContainer.addEventListener("wheel", (evt) => {
     evt.preventDefault();
     scrollContainer.scrollLeft += evt.deltaY;
-    range.value++;
+    // range.value++;
 });

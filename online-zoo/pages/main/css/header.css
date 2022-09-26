@@ -20,7 +20,7 @@
     width: 7.06%;
 }
 
-.logo__box {
+.logo__boxs {
     width: 82px;
     height: 52px;
     border: 1px solid #FFFFFF;
@@ -35,8 +35,6 @@
     border: 1.18841px solid #FFFFFF;
     text-align: center;
     letter-spacing: 0.07em;
-
-
 }
 
 .box__text-logo {

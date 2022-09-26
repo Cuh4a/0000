@@ -1,0 +1,241 @@
+.footer {
+    width: 100%;
+    background: #000000;
+    color: var(--white-text-color);
+    margin-top: -1.25rem;
+}
+
+.container__footer {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.footer__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 443px;
+}
+
+.footer__box-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__box-logo {
+    padding: 0.6rem 0 0 0;
+    width: 7.06%;
+}
+
+.footer__box-email {
+    display: block;
+}
+
+.footer__box-title {
+    padding: 2.5rem 8.125rem 0 0;
+}
+
+.footer__box-title h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.812rem;
+    color: #FFFFFF;
+}
+
+.box__email-enter {
+    display: inline-flex;
+    padding: 0.8rem 0 0 0;
+}
+
+input[type=email] {
+    width: 228px;
+    height: 42px;
+    padding-left: 0.625rem;
+    border: 1px solid #F9804B;
+    background: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.374rem;
+    color: #BDBDBD;
+    margin-right: 0.325rem;
+}
+
+
+input[type=email]:focus {
+    outline: 0.7px solid #4B9200;
+    border-radius: 2px;
+    border: 0px;
+}
+
+input[type=submit]:invalid {
+    color: #D31414;
+    background: #F1F3F2;
+    border: 1px solid #D31414;
+    border-radius: 5px;
+}
+
+input[type=submit]:focus {
+    color: #4B9200;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+}
+
+
+input[type=submit] {
+    width: 129px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.374rem;
+    color: #000000;
+    text-align: center;
+    background: #F1F3F2;
+    border: 1px solid #333B41;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer__button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.footer__button:hover {
+    transition: 0.4s;
+    background: #E47209;
+}
+
+.footer__button-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: transparent;
+    padding: 1rem 0;
+}
+
+.footer__box-down {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid white; */
+    min-height: 190px;
+}
+
+.footer__box-icons {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 0.200rem;
+}
+
+.box__icons {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 150px;
+    gap: 5px;
+    padding-top: 7px;
+}
+
+.icon__circle {
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.circle-facebook {
+    padding: 5px 7px;
+}
+
+.circle-twitter {
+    padding: 6px 3px;
+}
+
+.circle-youtube {
+    padding: 6px 3px;
+}
+
+.circle-instagram {
+    padding: 5px 3px;
+}
+
+.icon__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #FFFFFF;
+}
+
+.footer__box-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-self: flex-end;
+    margin-bottom: 3.125rem;
+    padding-left: 10.31rem;
+}
+
+
+.box__navigat {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+    gap: 3.625rem;
+}
+
+
+
+.item__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.item__link-active {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    cursor: default;
+}
+
+.item__link:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: all;
+}
