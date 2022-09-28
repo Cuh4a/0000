@@ -161,7 +161,15 @@ input[type=submit] {
 }
 .box__icons:hover{
   cursor: pointer;
+  color: #FE9013;
 }
+.icon__circle:hover {
+    background: #FE9013;
+}
+.box__icons p :hover{
+    cursor: pointer;
+    color: #FE9013;
+  }
 .icon__circle {
     width: 26px;
     height: 26px;

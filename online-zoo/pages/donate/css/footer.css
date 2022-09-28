@@ -156,6 +156,20 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.box__icons:hover {
+    cursor: pointer;
+    color: #FE9013;
+}
+
+.icon__circle:hover {
+    background: #FE9013;
+}
+
+.box__icons p :hover {
+    cursor: pointer;
+    color: #FE9013;
+}
+
 .box__icons {
     display: flex;
     justify-content: flex-start;

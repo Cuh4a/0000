@@ -384,12 +384,12 @@ input[type="number"]:focus-visible {
 .radio-item {
     display: inline-block;
     position: relative;
-
 }
 
 
 .radio-item input[type='radio'] {
     display: none;
+    cursor: pointer;
 }
 
 .radio-item label {
@@ -398,7 +398,8 @@ input[type="number"]:focus-visible {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #333B41
+    color: #333B41;
+    cursor: pointer;
 }
 
 .radio-item label:before {

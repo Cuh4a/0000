@@ -236,14 +236,14 @@
 }
 
 .foto__left {
-    background: url(../../../assets/images/flowers/palm-wildernessworld.png) no-repeat;
+    background: url(../../../assets/images/flowers/palm-wildernessworld.svg) no-repeat;
     min-height: 460px;
     width: 880px;
 
 }
 
 .foto__right {
-    background: url(../../../assets/images/flowers/strelitzia-wildernessworld.png) no-repeat;
+    background: url(../../../assets/images/flowers/strelitzia-wildernessworld.svg) no-repeat;
     width: 368px;
     height: 275px;
 

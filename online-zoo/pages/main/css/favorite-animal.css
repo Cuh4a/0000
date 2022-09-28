@@ -1,6 +1,5 @@
 .favorite-animal {
     width: 100%;
-    margin: 0 auto;
 }
 
 .animal__image {
@@ -10,6 +9,13 @@
     background: url(../../../assets/images/main-panda.png) no-repeat;
     margin: 0 auto;
     background-position: 0px -80px;
+}
+
+@media(max-width: 1200px) {
+    .animal__image {
+        min-height: 584px;
+        background-size: cover      
+    }
 }
 
 .container__animal {
@@ -22,16 +28,30 @@
     margin: 0 auto;
 }
 
+@media(max-width: 1200px) {
+    .container__animal {
+        max-width: 940px;
+    }
+}
+
 .animal__ellispe {
     position: relative;
-    width: 40.08%;
-    min-height: 465px;
+    width: 465px;
+    height: 465px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 50%;
     margin-right: 108px;
     margin-top: 12px;
 }
 
+@media(max-width: 1200px) {
+    .animal__ellispe {
+        width: 365px;
+        height: 365px;
+        margin-right: 9.195rem;
+        margin-top: -9px;
+    }
+}
 
 .ellipse__box {
     position: absolute;
@@ -40,6 +60,13 @@
     left: 73px;
     top: 0px;
     text-align: center;
+}
+
+@media(max-width: 1200px) {
+    .ellipse__box {
+        width: 400.25px;
+        height: 320px;
+    }
 }
 
 .ellipse__text {
@@ -53,14 +80,26 @@
     padding-top: 72px;
 }
 
+@media(max-width: 1200px) {
+    .ellipse__text {
+        font-size: 5.31rem;
+        line-height: 4rem;
+        padding-top: 3.25rem;
+        padding-right:2.1rem;
+    }
+}
 
 
 .ellipse__text span {
     color: #FFEE2E;
 }
-
+@media(max-width: 1200px) {
+    .ellipse__text span {
+        margin-left: -0.562rem;
+    }
+}
 .animal__btn {
-    width: 25.68%;
+    width: 298px;
     height: 54px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
@@ -73,6 +112,12 @@
     cursor: pointer;
 }
 
+@media(max-width: 1200px) {
+    .animal__btn {
+        margin-top: 2.9rem;
+        margin-right: 6.6rem;
+    }
+}
 
 .animal__btn button {
     font-family: 'Roboto';
@@ -90,4 +135,3 @@
     transition: all .4s ease;
     background: #E47209;
 }
-
