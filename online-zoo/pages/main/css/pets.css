@@ -6,40 +6,144 @@
     align-items: center;
 }
 
-.container__pets {
-    width: 100%;
-    max-width: 1160px;
+@media(max-width: 1400px) {
+    .pets {
+        margin: 3.4rem 0 0 0;
+    }
+}
+
+.wrap {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media(max-width: 1400px) {
+    .wrap {
+        max-width: 1000px;
+    }
+}
+
+
+.b-carousel {
+    width: 1160px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
     margin: 0 auto;
 }
 
-.pets__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+@media(max-width: 1400px) {
+    .b-carousel {
+        width: 1000px;
+    }
 }
 
-.slider {
-    width: 1158px;
+.b-carousel__prev,
+.b-carousel__next {
+    position: absolute;
+    top: 46.1%;
+    left: -7.1%;
+    text-indent: 100%;
+    white-space: nowrap;
     overflow: hidden;
+    z-index: 3;
+    width: 62px;
+    height: 62px;
+    border: 2px solid var(--orange-text-color);
+    border-radius: 50%;
+    background-color: var(--orange-text-color);
+    background-repeat: no-repeat;
+    background-size: 29%;
+    background-position: center;
+    padding: 0;
+    cursor: pointer;
 }
 
-.pets__wrapper {
-    position: relative;
+@media(max-width: 1400px) {
+
+    .b-carousel__prev,
+    .b-carousel__next {
+        top: 46.5%;
+        left: 35.3%;
+    }
+}
+
+.b-carousel__prev,
+.b-carousel__next:hover {
+    background-color: #E47209;
+    border: 2px solid #E47209;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.b-carousel__prev img {
+    position: absolute;
+    left: 37.1%;
+    right: 37.1%;
+    top: 43.55%;
+    bottom: 43.55%;
+    z-index: 2;
+}
+
+.b-carousel__next img {
+    position: absolute;
+    left: 37.1%;
+    right: 37.1%;
+    top: 43.55%;
+    bottom: 43.55%;
+    z-index: 2;
+}
+
+.b-carousel__next {
+    left: auto;
+    right: -7.1%;
+}
+
+@media(max-width: 1400px) {
+    .b-carousel__next {
+        right: 35.3%;
+    }
+}
+
+.b-carousel__wrap {
     display: flex;
+    transition: transform .5s;
+    will-change: transform;
+    position: relative;
+    z-index: 1;
+    width: 1160px;
+    height: 872px;
+    margin: 0 auto;
+
 }
 
-.slide-item {
-    width: 100%;
+@media(max-width: 1400px) {
+    .b-carousel__wrap {
+        width: 1000px;
+    }
+}
+
+.b-carousel__item {
+    height: 872px;
+    flex: 0 0 100%;
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
     column-gap: 1.87rem;
     row-gap: 1.25rem;
+    align-self: center;
+    align-self: center;
 }
 
+
 .item__card {
-    width: 31.60%;
-    min-height: 426px;
+    display: block;
+    width: 366px;
+    height: 426px;
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #FA6F32;
@@ -49,13 +153,34 @@
     transition: 0.5s;
 }
 
+@media(max-width: 1400px) {
+    .item__card {
+        width: 294px;
+        height: 354px;
+    }
+}
+
 .card__img {
     width: 100%;
 }
 
-.card__img img {
+@media(max-width: 1400px) {
+    .card__img {
+        width: 294px;
+        height: 294px;
 
+    }
+}
+
+.card__img img {
     transition: 0.5s
+}
+
+@media(max-width: 1400px) {
+    .card__img img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .card__info {
@@ -106,6 +231,13 @@
     padding-bottom: 5px;
 }
 
+@media(max-width: 1400px) {
+    .card__text p {
+        padding-bottom: 0px;
+    }
+
+}
+
 /* =======================Hover card =========================*/
 .card__hover {
     position: absolute;
@@ -127,7 +259,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 140%;
     text-transform: uppercase;
 }
@@ -136,7 +268,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 0.937rem;
     line-height: 120%;
 }
 
@@ -173,55 +305,17 @@
     padding-left: 4px;
 }
 
+@media(max-width: 1400px) {
+    .button__slider-last {
+        margin-top: 2.8rem;
+        padding-left: 4px;
+    }
+
+}
+
 .button__slider-last:hover {
     transition: all .4s ease;
     background: #E47209;
-}
-
-.button__arrow {
-    width: 62px;
-    height: 62px;
-    border: 2px solid var(--orange-text-color);
-    border-radius: 50%;
-    background-color: var(--orange-text-color);
-    top: 45.1%;
-    background-repeat: no-repeat;
-    background-size: 29%;
-    background-position: center;
-    padding: 0;
-}
-
-.button__arrow:focus {
-    background-color: #4B9200;
-    border: 2px solid #4B9200;
-}
-
-.button__arrow:hover {
-    background-color: #E47209;
-    border: 2px solid #E47209;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.button__arrow-left {
-    width: 62px;
-    height: 62px;
-    position: absolute;
-    top: 403px;
-    left: -82px;
-    background-image: url("../../../assets/icons/arrow-left.svg");
-
-}
-
-.button__arrow-right {
-    position: absolute;
-    top: 403px;
-    right: -82px;
-    width: 62px;
-    height: 62px;
-    background-image: url("../../../assets/icons/arrow-right.svg");
 }
 
 .pets__foto {
@@ -235,16 +329,40 @@
     margin-top: -360px;
 }
 
+
+
 .foto__left {
     background: url(../../../assets/images/flowers/palm-wildernessworld.svg) no-repeat;
-    min-height: 460px;
+    height: 460px;
     width: 880px;
-
 }
+
+
 
 .foto__right {
     background: url(../../../assets/images/flowers/strelitzia-wildernessworld.svg) no-repeat;
     width: 368px;
     height: 275px;
 
+}
+
+@media(max-width: 1200px) {
+    .pets__foto {
+        max-width: 1000px;
+        height: 202px;
+        margin-top: -3.87rem;
+    }
+
+    .foto__left {
+        width: 386px;
+        height: 202px;
+        background-size: contain;
+        background-size: 68% 100% ;
+    }
+
+    .foto__right {
+        background-size: contain;
+        width: 241px;
+        height: 180px
+    }
 }

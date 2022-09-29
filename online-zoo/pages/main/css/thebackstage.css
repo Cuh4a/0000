@@ -4,6 +4,14 @@
     max-width: 1600px;
 }
 
+@media(max-width: 1200px) {
+    .thebackstage {
+        max-width: 1000px;
+        padding: 0 30px;
+    }
+}
+
+
 .thebackstage__left-img {
     width: 12.687%;
     min-height: 605px;
@@ -14,6 +22,12 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+@media screen and (max-width: 1400px) {
+    .thebackstage__left-img {
+        display: none;
+    }
+}
+
 .container__thebackstage {
     display: flex;
     justify-content: space-between;
@@ -22,7 +36,17 @@
     /* border: 1px solid black; */
     padding-top: 60px;
     margin-right: -50px;
-    gap: 0px;
+
+}
+
+@media(max-width: 1200px) {
+    .container__thebackstage {
+        width: 100%;
+        max-width: 940px;
+        /* border: 1px solid black; */
+        padding-top: 1rem;
+        margin-right: 0px;
+    }
 }
 
 .thebackstage__img {
@@ -35,16 +59,39 @@
     margin: 0.4px 0px 0px 2px;
 }
 
+@media(max-width: 1200px) {
+    .thebackstage__img {
+        width: 48.40%;
+        height: 408px;
+        background: url(../../../assets/images/bamboo-cap.svg);
+        object-fit: contain;
+        object-position: center;
+        margin: 0.803rem 2px 0px 0px;
+    }
+}
+
 .thebackstage__box {
     width: 41.10%;
     min-height: 402px;
     align-self: center;
     /* border: 1px solid black; */
-  
+}
+
+@media(max-width: 1200px) {
+    .thebackstage__box {
+        width: 48.29%;
+        /* border: 1px solid black; */
+    }
 }
 
 .box__title {
     padding: 0 0 1.25rem 0.25rem;
+}
+
+@media(max-width: 1200px) {
+    .box__title {
+        padding: 0.25rem 0 0 0;
+    }
 }
 
 .box__title h2 {
@@ -54,13 +101,19 @@
     font-size: 3rem;
     line-height: 3.625rem;
     color: #333B41;
-
 }
 
 .box__text {
     width: 95%;
     padding: 0 0 3.125rem 0.25rem;
     /* border: 1px solid black; */
+}
+
+@media(max-width: 1200px) {
+    .box__text {
+        width: 100%;
+        padding: 1.3rem 0 3.125rem 0rem;
+    }
 }
 
 .box__text p {
@@ -76,6 +129,12 @@
     /* border: 1px solid black; */
     width: 80%;
     padding: 0.20rem 0 2.12rem 0.25rem;
+}
+
+@media(max-width: 1200px) {
+    .box__subtitle {
+        padding: 0.20rem 0 0.8rem 0rem;
+    }
 }
 
 .box__subtitle p {

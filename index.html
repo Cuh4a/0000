@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./online-zoo/pages/main/css/style.css">
     <title>Online-Zoo</title>
 </head>
@@ -100,162 +100,300 @@
 
         <!---------------------------------------Start Section pets--------------------------------------->
         <section class="pets">
-            <div class="container__pets">
-                <div class="pets__container">
-                    <!-- Slider -->
-                    <div class="slider">
-                        <div class="pets__wrapper">
-                            <!-- Slider item -->
-                            <div class="slide-item" id="active-slides">
-                                <!------------------------------- One card ------------------------------------------->
-                                <div class="item__card">
-                                    <div class="card__img">
-                                        <img src="./online-zoo/assets/images/animals-card/giant-pandas.png" alt="pandas">
+            <div class="wrap">
+                <button class="b-carousel__prev js-carousel__prev"><img src="./online-zoo/assets/icons/arrow-left.svg"
+                        alt=""></button>
+                <button class="b-carousel__next js-carousel__next"><img src="./online-zoo/assets/icons/arrow-right.svg"
+                        alt=""></button>
+                <div class="b-carousel js-carousel">
+                    <div class="b-carousel__wrap js-carousel__wrap">
+                        <div class="b-carousel__item">
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/giant-pandas.png" alt="pandas">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>giant Pandas</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Southwest China</p>
+                                        </div>
                                     </div>
-                                    <div class="card__info">
-                                        <div class="info">
-                                            <div class="card__subtitle">
-                                                <p>giant Pandas</p>
-                                            </div>
-                                            <div class="card__text">
-                                                <p>Native to Southwest China</p>
-                                            </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
+                                    </div>
+                                </div>
+                                <div class="card__hover">
+                                    <h4 class="hover__subtitle">giant Pandas</h4>
+                                    <p class="hover__text">Native to Southwest China</p>
+                                </div>
+                            </div>
+                            <!------------------------------- Two card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/eagles.png" alt="eagles">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Eagles</p>
                                         </div>
-                                        <div class="card__icon">
-                                            <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
+                                        <div class="card__text">
+                                            <p>Native to South America</p>
                                         </div>
+                                    </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                    </div>
+                                </div>
+                                <div class="card__hover">
+                                    <h4 class="hover__subtitle">Eagles</h4>
+                                    <p class="hover__text">Native to South America</p>
+                                </div>
+                            </div>
+                            <!------------------------------- Three card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/gorillas.png" alt="gorillas">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Gorillas</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Congo</p>
+                                        </div>
+                                    </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
                                     </div>
                                     <div class="card__hover">
-                                        <h4 class="hover__subtitle">giant Pandas</h4>
-                                        <p class="hover__text">Native to Southwest China</p>
+                                        <h4 class="hover__subtitle">Gorillas</h4>
+                                        <p class="hover__text">Native to Congo</p>
                                     </div>
                                 </div>
-                                <!------------------------------- Two card ------------------------------------------->
-                                <div class="item__card">
-                                    <div class="card__img">
-                                        <img src="./online-zoo/assets/images/animals-card/eagles.png" alt="eagles">
+                            </div>
+                            <!------------------------------- Four card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/two-thoed-slots.png"
+                                        alt="two-thoed-slots">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Two-toed Sloth</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Mesoamerica, South America</p>
+                                        </div>
                                     </div>
-                                    <div class="card__info">
-                                        <div class="info">
-                                            <div class="card__subtitle">
-                                                <p>Eagles</p>
-                                            </div>
-                                            <div class="card__text">
-                                                <p>Native to South America</p>
-                                            </div>
-                                        </div>
-                                        <div class="card__icon">
-                                            <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
-                                        </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
                                     </div>
                                     <div class="card__hover">
-                                        <h4 class="hover__subtitle">Eagles</h4>
-                                        <p class="hover__text">Native to South America</p>
+                                        <h4 class="hover__subtitle">Two-toed Sloth</h4>
+                                        <p class="hover__text">Mesoamerica, South America</p>
                                     </div>
                                 </div>
-                                <!------------------------------- Three card ------------------------------------------->
-                                <div class="item__card">
-                                    <div class="card__img">
-                                        <img src="./online-zoo/assets/images/animals-card/gorillas.png" alt="gorillas">
+                            </div>
+                            <!------------------------------- five card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/cheats.png" alt="cheats">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>cheetahs</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Africa</p>
+                                        </div>
                                     </div>
-                                    <div class="card__info">
-                                        <div class="info">
-                                            <div class="card__subtitle">
-                                                <p>Gorillas</p>
-                                            </div>
-                                            <div class="card__text">
-                                                <p>Native to Congo</p>
-                                            </div>
-                                        </div>
-                                        <div class="card__icon">
-                                            <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
-                                        </div>
-                                        <div class="card__hover">
-                                            <h4 class="hover__subtitle">Gorillas</h4>
-                                            <p class="hover__text">Native to Congo</p>
-                                        </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                    </div>
+                                    <div class="card__hover">
+                                        <h4 class="hover__subtitle">cheetahs</h4>
+                                        <p class="hover__text">Native to Africa</p>
                                     </div>
                                 </div>
-                                <!------------------------------- Four card ------------------------------------------->
-                                <div class="item__card">
-                                    <div class="card__img">
-                                        <img src="./online-zoo/assets/images/animals-card/two-thoed-slots.png"
-                                            alt="two-thoed-slots">
+                            </div>
+                            <!------------------------------- Six card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/penguins.png" alt="penguins">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Penguins</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Antarctica</p>
+                                        </div>
                                     </div>
-                                    <div class="card__info">
-                                        <div class="info">
-                                            <div class="card__subtitle">
-                                                <p>Two-toed Sloth</p>
-                                            </div>
-                                            <div class="card__text">
-                                                <p>Mesoamerica, South America</p>
-                                            </div>
-                                        </div>
-                                        <div class="card__icon">
-                                            <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
-                                        </div>
-                                        <div class="card__hover">
-                                            <h4 class="hover__subtitle">Two-toed Sloth</h4>
-                                            <p class="hover__text">Mesoamerica, South America</p>
-                                        </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                    </div>
+                                    <div class="card__hover">
+                                        <h4 class="hover__subtitle">Penguins</h4>
+                                        <p class="hover__text">Native to Africa</p>
                                     </div>
                                 </div>
-                                <!------------------------------- five card ------------------------------------------->
-                                <div class="item__card">
-                                    <div class="card__img">
-                                        <img src="./online-zoo/assets/images/animals-card/cheats.png" alt="cheats">
+                            </div>
+                        </div>
+                        <div class="b-carousel__item">
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/giant-pandas.png" alt="pandas">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>giant Pandas</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Southwest China</p>
+                                        </div>
                                     </div>
-                                    <div class="card__info">
-                                        <div class="info">
-                                            <div class="card__subtitle">
-                                                <p>cheetahs</p>
-                                            </div>
-                                            <div class="card__text">
-                                                <p>Native to Africa</p>
-                                            </div>
-                                        </div>
-                                        <div class="card__icon">
-                                            <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
-                                        </div>
-                                        <div class="card__hover">
-                                            <h4 class="hover__subtitle">cheetahs</h4>
-                                            <p class="hover__text">Native to Africa</p>
-                                        </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
                                     </div>
                                 </div>
-                                <!------------------------------- Six card ------------------------------------------->
-                                <div class="item__card">
-                                    <div class="card__img">
-                                        <img src="./online-zoo/assets/images/animals-card/penguins.png" alt="penguins">
+                                <div class="card__hover">
+                                    <h4 class="hover__subtitle">giant Pandas</h4>
+                                    <p class="hover__text">Native to Southwest China</p>
+                                </div>
+                            </div>
+                            <!------------------------------- Two card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/eagles.png" alt="eagles">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Eagles</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to South America</p>
+                                        </div>
                                     </div>
-                                    <div class="card__info">
-                                        <div class="info">
-                                            <div class="card__subtitle">
-                                                <p>Penguins</p>
-                                            </div>
-                                            <div class="card__text">
-                                                <p>Native to Antarctica</p>
-                                            </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                    </div>
+                                </div>
+                                <div class="card__hover">
+                                    <h4 class="hover__subtitle">Eagles</h4>
+                                    <p class="hover__text">Native to South America</p>
+                                </div>
+                            </div>
+                            <!------------------------------- Three card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/gorillas.png" alt="gorillas">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Gorillas</p>
                                         </div>
-                                        <div class="card__icon">
-                                            <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                        <div class="card__text">
+                                            <p>Native to Congo</p>
                                         </div>
-                                        <div class="card__hover">
-                                            <h4 class="hover__subtitle">Penguins</h4>
-                                            <p class="hover__text">Native to Africa</p>
+                                    </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
+                                    </div>
+                                    <div class="card__hover">
+                                        <h4 class="hover__subtitle">Gorillas</h4>
+                                        <p class="hover__text">Native to Congo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------------------- Four card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/two-thoed-slots.png"
+                                        alt="two-thoed-slots">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Two-toed Sloth</p>
                                         </div>
+                                        <div class="card__text">
+                                            <p>Mesoamerica, South America</p>
+                                        </div>
+                                    </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/fruit-icons.svg" alt="fruit">
+                                    </div>
+                                    <div class="card__hover">
+                                        <h4 class="hover__subtitle">Two-toed Sloth</h4>
+                                        <p class="hover__text">Mesoamerica, South America</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------------------- five card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/cheats.png" alt="cheats">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>cheetahs</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Africa</p>
+                                        </div>
+                                    </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                    </div>
+                                    <div class="card__hover">
+                                        <h4 class="hover__subtitle">cheetahs</h4>
+                                        <p class="hover__text">Native to Africa</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------------------------- Six card ------------------------------------------->
+                            <div class="item__card">
+                                <div class="card__img">
+                                    <img src="./online-zoo/assets/images/animals-card/penguins.png" alt="penguins">
+                                </div>
+                                <div class="card__info">
+                                    <div class="info">
+                                        <div class="card__subtitle">
+                                            <p>Penguins</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>Native to Antarctica</p>
+                                        </div>
+                                    </div>
+                                    <div class="card__icon">
+                                        <img src="./online-zoo/assets/icons/meet-icons.svg" alt="meat">
+                                    </div>
+                                    <div class="card__hover">
+                                        <h4 class="hover__subtitle">Penguins</h4>
+                                        <p class="hover__text">Native to Africa</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- button sliders -->
-                    <form action="#"><button class="button__slider-last">choose your
-                            favorite</button></form>
-                    <button class="button__arrow button__arrow-left"></button>
-                    <button class="button__arrow button__arrow-right"></button>
                 </div>
             </div>
+            </div>
+            <!-- button sliders -->
+            <form action="#"><button class="button__slider-last">choose your
+                    favorite</button></form>
             <div class="pets__foto">
                 <div class="foto__left"></div>
                 <div class="foto__right"></div>
@@ -279,7 +417,8 @@
                             that people around the world find joy in PetStory.</p>
                         <p class="text-down">Even though the zoo has reopened, we need you now more than ever to help us
                             deal with these
-                            problems. Please consider a gift to our <a href="./online-zoo/pages/donate/index.html">Emergency
+                            problems. Please consider a gift to our <a
+                                href="./online-zoo/pages/donate/index.html">Emergency
                                 Support Fund</a>.</p>
                     </div>
                     <div class="pickandfeed__box">
@@ -300,7 +439,8 @@
                             </div>
                             <div class="box__pay-card">
                                 <div class="pay__card-img">
-                                    <img src="./online-zoo/assets/icons/zoo.svg" alt="arrow right" class="img__card-zoo">
+                                    <img src="./online-zoo/assets/icons/zoo.svg" alt="arrow right"
+                                        class="img__card-zoo">
                                 </div>
                                 <div class="pay__card-text">
                                     <span>Payment goes to the zoo</span>
@@ -311,7 +451,8 @@
                             </div>
                             <div class="box__pay-card">
                                 <div class="pay__card-img">
-                                    <img src="./online-zoo/assets/icons/monkey.svg" alt="arrow right" class="img__card-monkey">
+                                    <img src="./online-zoo/assets/icons/monkey.svg" alt="arrow right"
+                                        class="img__card-monkey">
                                 </div>
                                 <div class="pay__card-text">
                                     <span>Your favourite animal gets delicious dish</span>
@@ -319,7 +460,8 @@
                             </div>
                         </div>
                     </div>
-                    <form action="./online-zoo/pages/donate/index.html"><button class="pickandfeed__button">Feed a friend
+                    <form action="./online-zoo/pages/donate/index.html"><button class="pickandfeed__button">Feed a
+                            friend
                             now</button></form>
                 </div>
             </div>
@@ -578,7 +720,8 @@
                             <a href="./index.html" class="logo__link">
                                 <div class=" logo__box">
                                     <h2 class="box__text-logo">PetStory online</h1>
-                                    <img src="./online-zoo/assets/icons/bamboo.svg" class="box__icon" alt="иконка бамбука">
+                                        <img src="./online-zoo/assets/icons/bamboo.svg" class="box__icon"
+                                            alt="иконка бамбука">
                                 </div>
                             </a>
                         </div>
@@ -597,14 +740,16 @@
                     </div>
                 </div>
                 <div class="footer__button">
-                    <form action="./online-zoo/pages/donate/index.html"><button class="footer__button-btn">donate for volunteers</button></form>
+                    <form action="./online-zoo/pages/donate/index.html"><button class="footer__button-btn">donate for
+                            volunteers</button></form>
                 </div>
                 <div class="footer__box-down">
                     <div class="footer__box-icons">
-                        
+
                         <div class="box__icons">
                             <div class="icon__circle">
-                                <img  src="./online-zoo/assets/icons/social-icons/social-facebook.svg" alt="icon facebook" class="circle-facebook">
+                                <img src="./online-zoo/assets/icons/social-icons/social-facebook.svg"
+                                    alt="icon facebook" class="circle-facebook">
                             </div>
                             <div class="icon__text">
                                 <p><a href="http://www.facebook.com">Facebook</a></p>
@@ -612,7 +757,8 @@
                         </div>
                         <div class="box__icons">
                             <div class="icon__circle">
-                                <img src="./online-zoo/assets/icons/social-icons/social-twitter.svg" alt="icon twitter" class="circle-twitter">
+                                <img src="./online-zoo/assets/icons/social-icons/social-twitter.svg" alt="icon twitter"
+                                    class="circle-twitter">
                             </div>
                             <div class="icon__text">
                                 <p><a href="http://www.twitter.com">Twitter</a></p>
@@ -620,7 +766,8 @@
                         </div>
                         <div class="box__icons">
                             <div class="icon__circle">
-                                <img src="./online-zoo/assets/icons/social-icons/social-insta.svg" alt="icon Instagram" class="circle-instagram">
+                                <img src="./online-zoo/assets/icons/social-icons/social-insta.svg" alt="icon Instagram"
+                                    class="circle-instagram">
                             </div>
                             <div class="icon__text">
                                 <p><a href="http://www.instagram.com">Instagram</a></p>
@@ -628,7 +775,8 @@
                         </div>
                         <div class="box__icons">
                             <div class="icon__circle">
-                                <img src="./online-zoo/assets/icons/social-icons/social-youtube.svg" alt="icon YouTube" class="circle-youtube">
+                                <img src="./online-zoo/assets/icons/social-icons/social-youtube.svg" alt="icon YouTube"
+                                    class="circle-youtube">
                             </div>
                             <div class="icon__text">
                                 <p><a href="http://www.youtube.com">Youtube</a></p>

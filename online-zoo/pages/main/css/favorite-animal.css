@@ -5,7 +5,7 @@
 .animal__image {
     width: 100%;
     max-width: 1600px;
-    min-height: 780px;
+    height: 780px;
     background: url(../../../assets/images/main-panda.png) no-repeat;
     margin: 0 auto;
     background-position: 0px -80px;
@@ -13,8 +13,9 @@
 
 @media(max-width: 1200px) {
     .animal__image {
-        min-height: 584px;
-        background-size: cover      
+        height: 584px;
+        background-size: cover; 
+        background-position: 50% -80px;    
     }
 }
 
@@ -46,8 +47,8 @@
 
 @media(max-width: 1200px) {
     .animal__ellispe {
-        width: 365px;
-        height: 365px;
+        width: 366px;
+        height: 366px;
         margin-right: 9.195rem;
         margin-top: -9px;
     }
