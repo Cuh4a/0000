@@ -123,6 +123,12 @@
     padding: 0 0 0rem 0.64rem;
 }
 
+@media(max-width: 1200px) {
+    .slide__info-user {
+        margin: -0.2rem 0 0 0;
+    }
+}
+
 .info__user-name {
     font-family: 'Roboto';
     font-style: normal;
@@ -176,6 +182,13 @@
     position: relative;
 }
 
+@media(max-width: 1200px) {
+    .pickandfeed__range {
+        width: 390px;
+        margin-top: 12px;
+        margin-right: 11px;
+    }
+}
 
 input[type='range'] {
     overflow: hidden;
@@ -187,6 +200,7 @@ input[type='range'] {
     cursor: pointer;
 }
 
+
 input[type='range']::-webkit-slider-runnable-track {
     height: 10px;
     -webkit-appearance: none;
@@ -194,6 +208,13 @@ input[type='range']::-webkit-slider-runnable-track {
     margin-top: -1px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media(max-width: 1200px) {
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 6px;
+        margin-top: -1px;
+    }
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -206,6 +227,13 @@ input[type='range']::-webkit-slider-thumb {
     border-radius: 5px;
 }
 
+@media(max-width: 1200px) {
+    input[type='range']::-webkit-slider-thumb {
+        box-shadow: -35px 0 0 35px #FE9013;
+        padding: 5px 0;
+    }
+}
+
 .pickandfeed__btn {
     width: 298px;
     height: 54px;
@@ -216,6 +244,12 @@ input[type='range']::-webkit-slider-thumb {
     margin-top: 1.6rem;
     cursor: pointer;
     position: relative;
+}
+
+@media(max-width: 1200px) {
+    .pickandfeed__btn {
+        margin-top: 2.92rem;
+    }
 }
 
 .pickandfeed__btn button {
@@ -253,4 +287,21 @@ input[type='range']::-webkit-slider-thumb {
     width: 300.92px;
     height: 295.45px;
     background-position: 55px 2px;
+}
+
+@media(max-width: 1200px) {
+    .pickandfeed__foto {
+        max-width: 1000px;
+        height: 235px;
+        background: transparent;
+        margin-top: -75px;
+    }
+
+    .foto__palm {
+        width: 239.98px;
+        height: 235.62px;
+        background: url(../../../assets/images/flowers/leav_foto.svg) no-repeat;
+        background-position: 44px -24px;
+    }
+
 }

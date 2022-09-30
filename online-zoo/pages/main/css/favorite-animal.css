@@ -14,8 +14,15 @@
 @media(max-width: 1200px) {
     .animal__image {
         height: 584px;
-        background-size: cover; 
-        background-position: 50% -80px;    
+        background-size: cover;
+        background-position: 50% -80px;
+    }
+}
+
+@media(max-width: 768px) {
+    .animal__image {
+        height: 373px;
+        background-position: 50% 0px;
     }
 }
 
@@ -34,7 +41,11 @@
         max-width: 940px;
     }
 }
-
+@media(max-width: 768px) {
+    .container__animal {
+        max-width: 639px;
+    }
+}
 .animal__ellispe {
     position: relative;
     width: 465px;
@@ -53,6 +64,14 @@
         margin-top: -9px;
     }
 }
+@media(max-width: 768px) {
+    .animal__ellispe {
+        width: 237px;
+        height: 237px;
+        margin-right: 4.437rem;
+        margin-top: 2.73rem;
+    }
+}
 
 .ellipse__box {
     position: absolute;
@@ -67,6 +86,14 @@
     .ellipse__box {
         width: 400.25px;
         height: 320px;
+    }
+}
+@media(max-width: 768px) {
+    .ellipse__box {
+        width: 255.64px;
+        height: 204.38px;
+        left: 54px;
+        top: -14px;
     }
 }
 
@@ -86,19 +113,32 @@
         font-size: 5.31rem;
         line-height: 4rem;
         padding-top: 3.25rem;
-        padding-right:2.1rem;
+        padding-right: 2.1rem;
     }
 }
+@media(max-width: 768px) {
+    .ellipse__text {
+        font-size: 3.393rem;
+        line-height: 2.562rem;
 
+    }
+}
 
 .ellipse__text span {
     color: #FFEE2E;
 }
+
 @media(max-width: 1200px) {
     .ellipse__text span {
         margin-left: -0.562rem;
     }
 }
+@media(max-width: 768px) {
+    .ellipse__text span {
+        margin-left: -0.762rem;
+    }
+}
+
 .animal__btn {
     width: 298px;
     height: 54px;
@@ -107,7 +147,7 @@
     text-align: center;
     margin-top: 69px;
     margin-right: 99px;
-    padding: 17px 20px;
+    padding: 1.062rem 1.25rem;
     transition: all .4s ease;
     background-size: 300% 100%;
     cursor: pointer;
@@ -119,7 +159,13 @@
         margin-right: 6.6rem;
     }
 }
-
+@media(max-width: 768px) {
+    .animal__btn {
+      margin: 0;
+      align-self: flex-start;
+      margin: -0.1rem 0 0 1.25rem;
+    }
+}
 .animal__btn button {
     font-family: 'Roboto';
     font-style: normal;
@@ -129,6 +175,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
     background: none;
+
 }
 
 .animal__btn:hover {

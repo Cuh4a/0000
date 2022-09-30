@@ -4,17 +4,23 @@
     max-width: 1600px;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .thebackstage {
         max-width: 1000px;
         padding: 0 30px;
     }
 }
 
+@media(max-width: 900px) {
+    .thebackstage {
+        display: flex;
+        padding: 0;
+    }
+}
 
 .thebackstage__left-img {
     width: 12.687%;
-    min-height: 605px;
+    height: 605px;
     background: url(../../../assets/images/flowers/flower-wildernessworld.png) no-repeat;
     background-position: 0px 0px;
     margin-top: -69px;
@@ -22,9 +28,20 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-@media screen and (max-width: 1400px) {
+@media (max-width: 1400px) {
     .thebackstage__left-img {
         display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .thebackstage__left-img {
+        display: block;
+        width: 231px;
+        height: 476px;
+        background-size: contain;
+        background-position: 70px 0px;
+        order: 1;
     }
 }
 
@@ -36,10 +53,9 @@
     /* border: 1px solid black; */
     padding-top: 60px;
     margin-right: -50px;
-
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .container__thebackstage {
         width: 100%;
         max-width: 940px;
@@ -48,6 +64,14 @@
         margin-right: 0px;
     }
 }
+
+@media(max-width: 900px) {
+        .container__thebackstage {
+            max-width: 640px;
+            padding: 0;
+    }
+}
+
 
 .thebackstage__img {
     width: 51.61%;
@@ -59,7 +83,7 @@
     margin: 0.4px 0px 0px 2px;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .thebackstage__img {
         width: 48.40%;
         height: 408px;
@@ -70,6 +94,12 @@
     }
 }
 
+@media(max-width: 900px) {
+    .thebackstage__img {
+        display: none;
+    }
+}
+
 .thebackstage__box {
     width: 41.10%;
     min-height: 402px;
@@ -77,9 +107,17 @@
     /* border: 1px solid black; */
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .thebackstage__box {
         width: 48.29%;
+        /* border: 1px solid black; */
+    }
+}
+
+@media(max-width: 900px) {
+    .thebackstage__box {
+        width: 100%;
+        padding-left: 20px;
         /* border: 1px solid black; */
     }
 }
@@ -88,9 +126,15 @@
     padding: 0 0 1.25rem 0.25rem;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .box__title {
         padding: 0.25rem 0 0 0;
+    }
+}
+
+@media(max-width: 900px) {
+    .box__title {
+        width: 100%;
     }
 }
 
@@ -109,7 +153,7 @@
     /* border: 1px solid black; */
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .box__text {
         width: 100%;
         padding: 1.3rem 0 3.125rem 0rem;
@@ -131,7 +175,7 @@
     padding: 0.20rem 0 2.12rem 0.25rem;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1400px) {
     .box__subtitle {
         padding: 0.20rem 0 0.8rem 0rem;
     }

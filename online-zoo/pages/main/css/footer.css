@@ -11,6 +11,12 @@
     margin: 0 auto;
 }
 
+@media(max-width: 1200px) {
+    .container__footer {
+        max-width: 940px;
+    }
+}
+
 .footer__box {
     width: 100%;
     display: flex;
@@ -33,12 +39,24 @@
     width: 7.06%;
 }
 
+@media(max-width: 1200px) {
+    .footer__box-logo {
+        padding: 0.6rem 0 0 0.8rem;
+    }
+}
+
 .footer__box-email {
     display: block;
 }
 
 .footer__box-title {
     padding: 2.5rem 8.125rem 0 0;
+}
+
+@media(max-width: 1200px) {
+    .footer__box-email {
+        padding-right: 20px;
+    }
 }
 
 .footer__box-title h5 {
@@ -117,6 +135,12 @@ input[type=submit] {
     text-align: center;
 }
 
+@media(max-width: 1200px) {
+    .footer__button {
+        margin-left: 14px;
+    }
+}
+
 .footer__button:hover {
     transition: 0.4s;
     background: #E47209;
@@ -144,6 +168,12 @@ input[type=submit] {
     min-height: 190px;
 }
 
+@media(max-width: 1200px) {
+    .footer__box-down {
+        padding-left: 13px;
+    }
+}
+
 .footer__box-icons {
     display: flex;
     flex-direction: column;
@@ -159,17 +189,21 @@ input[type=submit] {
     gap: 5px;
     padding-top: 7px;
 }
-.box__icons:hover{
-  cursor: pointer;
-  color: #FE9013;
+
+.box__icons:hover {
+    cursor: pointer;
+    color: #FE9013;
 }
+
 .icon__circle:hover {
     background: #FE9013;
 }
-.box__icons p :hover{
+
+.box__icons p :hover {
     cursor: pointer;
     color: #FE9013;
-  }
+}
+
 .icon__circle {
     width: 26px;
     height: 26px;
@@ -204,6 +238,14 @@ input[type=submit] {
     color: #FFFFFF;
 }
 
+@media(max-width: 1200px) {
+    .icon__text p {
+        text-align: center;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+}
+
 .footer__box-nav {
     display: flex;
     justify-content: space-between;
@@ -213,16 +255,28 @@ input[type=submit] {
     padding-left: 10.31rem;
 }
 
+@media(max-width: 1200px) {
+    .footer__box-nav {
+        padding-left: 6.6rem;
+    }
+
+}
+
 
 .box__navigat {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    border: 1px solid black;
     gap: 3.625rem;
 }
 
-
+@media(max-width: 1200px) {
+    .box__navigat {
+        justify-content: start;
+        width: 350px;
+        gap: 3rem;
+    }
+}
 
 .item__link {
     font-family: 'Roboto';

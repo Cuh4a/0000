@@ -12,6 +12,7 @@
     }
 }
 
+
 .wrap {
     max-width: 1600px;
     margin: 0 auto;
@@ -23,21 +24,22 @@
         max-width: 1000px;
     }
 }
-
+@media(max-width: 1000px) {
+    .wrap {
+        max-width: 700px;
+    }
+}
 
 .b-carousel {
-    width: 1160px;
+    width: 100%;
+    max-width: 1160px;
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
-@media(max-width: 1400px) {
-    .b-carousel {
-        width: 1000px;
-    }
-}
+
 
 .b-carousel__prev,
 .b-carousel__next {
@@ -114,15 +116,18 @@
     will-change: transform;
     position: relative;
     z-index: 1;
-    width: 1160px;
+    width: 100%;
+    max-width: 1160px;
     height: 872px;
     margin: 0 auto;
-
 }
 
-@media(max-width: 1400px) {
+
+
+
+@media(max-width: 1000px) {
     .b-carousel__wrap {
-        width: 1000px;
+        height: 756px;
     }
 }
 
@@ -138,7 +143,12 @@
     align-self: center;
     align-self: center;
 }
-
+@media(max-width: 1000px) {
+    .b-carousel__item  {
+        row-gap:5.75rem;
+        height: 756px;
+    }
+}
 
 .item__card {
     display: block;
@@ -160,6 +170,13 @@
     }
 }
 
+@media(max-width: 990px) {
+    .item__card {
+        width: 285px;
+        height: 332px;
+    }
+}
+
 .card__img {
     width: 100%;
 }
@@ -169,6 +186,13 @@
         width: 294px;
         height: 294px;
 
+    }
+}
+
+@media(max-width: 990px) {
+    .card__img {
+        width: 285.24px;
+        height: 285.24px
     }
 }
 
@@ -357,7 +381,7 @@
         width: 386px;
         height: 202px;
         background-size: contain;
-        background-size: 68% 100% ;
+        background-size: 68% 100%;
     }
 
     .foto__right {
