@@ -46,11 +46,10 @@ html {
 }
 
 body {
-  width: 100%;
   height: 100%;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  
+
 }
 
 
@@ -67,15 +66,32 @@ body {
   --footer-bg-color: #111115;
 }
 
-.photo-fon {
-  width: 100%;
+
+.image {
+  height: 386px;
+  background: url("../../../assets/images/donate-panda.svg") no-repeat;
+  background-position: center;
+  background-size: cover
 }
 
-.fon {
-  width: 100%;
-  max-width: 1600px;
-  min-height: 386px;
-  background: url(../../../assets/images/donate-panda.svg);
-  background-size: 100% 100%;
+@media (max-width: 1000px) {
+  .image {
+    height: 390px;
+    background: url("../../../assets/images/donate-panda.svg") no-repeat;
+    background-position: 30% 20%;
+    background-size: cover
+  }
+}
+
+@media (max-width: 640px) {
+  .image {
+    height: 369px;
+    background: url("../../../assets/images/donate-panda640px.svg") no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+  }
+}
+
+.wrapper {
   margin: 0 auto;
 }

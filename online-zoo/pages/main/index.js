@@ -5,6 +5,17 @@ scrollContainer.addEventListener("wheel", (evt) => {
   scrollContainer.scrollLeft += evt.deltaY;
   // range.value++;
 });
+
+
+
+// --------------Header sticky--------------------
+
+
+//------------------------------------------------
+
+
+
+
 (function () {
   "use strict";
 

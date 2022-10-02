@@ -12,6 +12,23 @@
     }
 }
 
+@media(max-width: 1000px) {
+    .pets {
+        margin: 5.6rem 0 0 0;
+    }
+}
+
+@media(max-width: 640px) {
+    .pets {
+        margin: 1.3rem 0 0 0;
+    }
+}
+
+@media(max-width: 480px) {
+    .pets {
+        margin: 2.5rem 0 0 0;
+    }
+}
 
 .wrap {
     max-width: 1600px;
@@ -24,7 +41,8 @@
         max-width: 1000px;
     }
 }
-@media(max-width: 1000px) {
+
+@media(max-width: 900px) {
     .wrap {
         max-width: 700px;
     }
@@ -38,7 +56,6 @@
     box-sizing: border-box;
     margin: 0 auto;
 }
-
 
 
 .b-carousel__prev,
@@ -66,8 +83,43 @@
 
     .b-carousel__prev,
     .b-carousel__next {
-        top: 46.5%;
+        top: 46.2%;
         left: 35.3%;
+    }
+}
+
+@media(max-width: 920px) {
+
+    .b-carousel__prev,
+    .b-carousel__next {
+        top: 43.3%;
+        left: 37.95%;
+    }
+}
+
+@media(max-width: 640px) {
+
+    .b-carousel__prev,
+    .b-carousel__next {
+        top: 42.9%;
+        left: 37.95%;
+    }
+}
+
+@media(max-width: 560px) {
+
+    .b-carousel__prev,
+    .b-carousel__next {
+        top: 42.9%;
+        left: 27%;
+    }
+}
+
+@media(max-width: 480px) {
+
+    .b-carousel__prev,
+    .b-carousel__next {
+        display: none;
     }
 }
 
@@ -110,6 +162,24 @@
     }
 }
 
+@media(max-width: 640px) {
+    .b-carousel__next {
+        right: 37.95%;
+    }
+}
+
+@media(max-width: 560px) {
+    .b-carousel__next {
+        right: 27%;
+    }
+}
+
+@media(max-width: 400px) {
+    .b-carousel__next {
+        display: none;
+    }
+}
+
 .b-carousel__wrap {
     display: flex;
     transition: transform .5s;
@@ -127,7 +197,17 @@
 
 @media(max-width: 1000px) {
     .b-carousel__wrap {
-        height: 756px;
+        height: 801px;
+    }
+}
+
+@media(max-width: 480px) {
+    .b-carousel__wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 1388px;
+        margin-left: -8px;
     }
 }
 
@@ -141,12 +221,19 @@
     column-gap: 1.87rem;
     row-gap: 1.25rem;
     align-self: center;
-    align-self: center;
 }
+
 @media(max-width: 1000px) {
-    .b-carousel__item  {
-        row-gap:5.75rem;
-        height: 756px;
+    .b-carousel__item {
+        row-gap: 5.75rem;
+        height: 801px;
+    }
+}
+
+@media(max-width: 480px) {
+    .b-carousel__item {
+        gap: 1.25rem;
+
     }
 }
 
@@ -185,7 +272,6 @@
     .card__img {
         width: 294px;
         height: 294px;
-
     }
 }
 
@@ -193,6 +279,12 @@
     .card__img {
         width: 285.24px;
         height: 285.24px
+    }
+}
+
+@media(max-width: 640px) {
+    .card__img {
+        height: 284px
     }
 }
 
@@ -211,15 +303,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
     padding: 0.6rem 0 0 0;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
     text-align: left;
     width: 83%;
     transition: .5s ease;
@@ -238,6 +327,13 @@
     line-height: 1.375rem;
     text-transform: uppercase;
     color: #000000;
+}
+
+@media(max-width: 640px) {
+    .card__subtitle p {
+        font-size: 12.4695px;
+        line-height: 140%;
+    }
 }
 
 .card__text {
@@ -259,7 +355,25 @@
     .card__text p {
         padding-bottom: 0px;
     }
+}
 
+@media(max-width: 640px) {
+    .card__text p {
+        font-size: 11.6px;
+        line-height: 120%;
+        margin-top: -6px;
+    }
+
+    .info {
+        margin-top: -3px;
+        margin-left: 10px;
+    }
+
+    .card__icon img {
+        width: 37.41px;
+        height: 29.62px;
+        margin-top: -10px;
+    }
 }
 
 /* =======================Hover card =========================*/
@@ -334,7 +448,26 @@
         margin-top: 2.8rem;
         padding-left: 4px;
     }
+}
 
+@media(max-width: 1000px) {
+    .button__slider-last {
+        margin-top: 5.07rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .button__slider-last {
+        margin-top: 0.94rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .button__slider-last {
+        margin-top: 1.25rem;
+        padding-left: 2px;
+        margin-right: 1.5px;
+    }
 }
 
 .button__slider-last:hover {
@@ -353,15 +486,11 @@
     margin-top: -360px;
 }
 
-
-
 .foto__left {
     background: url(../../../assets/images/flowers/palm-wildernessworld.svg) no-repeat;
     height: 460px;
     width: 880px;
 }
-
-
 
 .foto__right {
     background: url(../../../assets/images/flowers/strelitzia-wildernessworld.svg) no-repeat;
@@ -388,5 +517,53 @@
         background-size: contain;
         width: 241px;
         height: 180px
+    }
+}
+
+@media(max-width: 640px) {
+    .pets__foto {
+        max-width: 640px;
+        height: 202px;
+        margin-top: -6.4rem;
+    }
+
+    .foto__left {
+        width: 385px;
+        height: 202px;
+        background-size: contain;
+        background-size: 36.3% 100%;
+    }
+
+    .foto__right {
+        background-size: contain;
+        width: 175px;
+        height: 131px
+    }
+}
+
+@media(max-width: 500px) {
+    .pets__foto {
+        margin-top: 0rem;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .pets__foto {
+        max-width: 320px;
+        height: 72px;
+        margin-top: -0.75rem;
+    }
+
+    .foto__left {
+        width: 138px;
+        height: 72px;
+        background-size: 50% 100%;
+    }
+
+    .foto__right {
+        width: 85px;
+        height: 71px;
+        background-size: 140% 109%;
     }
 }

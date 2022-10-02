@@ -9,7 +9,19 @@
 
 @media(max-width: 1200px) {
     .testimonials {
-        padding: 5rem 0 0 0;
+        padding: 4.86rem 0 0 0;
+    }
+}
+
+@media(max-width: 640px) {
+    .testimonials {
+        padding: 2.5rem 0 0 0;
+    }
+}
+
+@media(max-width: 320px) {
+    .testimonials {
+        padding: 0.7rem 0 0 0;
     }
 }
 
@@ -29,6 +41,12 @@
     }
 }
 
+@media(max-width: 640px) {
+    .container__testimonials {
+        max-width: 600px;
+    }
+}
+
 .testimonials__title {
     font-family: 'Roboto';
     font-style: normal;
@@ -38,6 +56,20 @@
     text-align: center;
     color: #333B41;
     padding-top: 20px;
+}
+
+@media(max-width: 640px) {
+    .testimonials__title {
+        padding-right: 3px;
+    }
+}
+
+@media(max-width: 320px) {
+    .testimonials__title {
+        font-size: 1.5rem;
+        line-height: 1.812rem;
+        padding-right: 0;
+    }
 }
 
 .testimonials__slider {
@@ -56,6 +88,24 @@
         padding-top: 2rem;
     }
 }
+
+@media(max-width: 640px) {
+    .testimonials__slider {
+        flex-direction: column;
+        gap: 15px;
+        height: 400px;
+        overflow-y: hidden;
+    }
+}
+
+@media(max-width: 320px) {
+    .testimonials__slider {
+        height: 380px;
+        padding: 1.2rem 0.625rem 0 0.625rem;
+    }
+}
+
+
 
 .slider__slide {
     width: 22.2%;
@@ -78,6 +128,22 @@
     }
 }
 
+@media(max-width: 640px) {
+    .slider__slide {
+        width: 100%;
+        min-width: 598px;
+        min-height: 109px;
+    }
+}
+
+@media(max-width: 600px) {
+    .slider__slide {
+        width: 100%;
+        min-width: 299px;
+
+    }
+}
+
 .slide__fon {
     width: 262px;
     height: 385px;
@@ -94,6 +160,13 @@
 @media(max-width: 1200px) {
     .slide__fon {
         width: 288px;
+    }
+}
+
+@media(max-width: 640px) {
+    .slide__fon {
+        width: 99.2%;
+        height: 106px;
     }
 }
 
@@ -190,6 +263,12 @@
     }
 }
 
+@media(max-width: 1200px) {
+    .pickandfeed__range {
+        display: none;
+    }
+}
+
 input[type='range'] {
     overflow: hidden;
     width: 100%;
@@ -248,7 +327,15 @@ input[type='range']::-webkit-slider-thumb {
 
 @media(max-width: 1200px) {
     .pickandfeed__btn {
-        margin-top: 2.92rem;
+        margin-top: 4.92rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .pickandfeed__btn {
+        width: 240px;
+        margin-top: 1.65rem;
+        align-self: center;
     }
 }
 
@@ -265,6 +352,7 @@ input[type='range']::-webkit-slider-thumb {
     padding: 1rem 0;
     cursor: pointer;
 }
+
 
 .pickandfeed__btn:hover {
     transition: 0.4s;
@@ -304,4 +392,38 @@ input[type='range']::-webkit-slider-thumb {
         background-position: 44px -24px;
     }
 
+}
+
+@media(max-width: 640px) {
+    .pickandfeed__foto {
+        max-width: 640px;
+        height: 150px;
+        background: transparent;
+        margin-top: -49px;
+    }
+
+    .foto__palm {
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        background-position: 108% 20px;
+    }
+
+}
+
+@media(max-width: 320px) {
+    .pickandfeed__foto {
+        max-width: 320px;
+        height: 128.5px;
+        background: transparent;
+        margin-top: -49px;
+    }
+
+    .foto__palm {
+        width: 100px;
+        height: 120px;
+        background-size: contain;
+        background: url(../../../assets/images/flowers/leav_foto320px.svg) no-repeat;
+        background-position: 99% 40px;
+}
 }

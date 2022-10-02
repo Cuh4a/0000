@@ -25,6 +25,18 @@
         background-position: 50% 0px;
     }
 }
+@media(max-width: 400px) {
+    .animal__image {
+        height: 300px;
+    }
+}
+@media(max-width: 320px) {
+    .animal__image {
+        height: 221.1px;
+        background: url(../../../assets/images/main-panda320px.svg) no-repeat;
+        background-position: 80% 100%;
+    }
+}
 
 .container__animal {
     display: flex;
@@ -41,11 +53,19 @@
         max-width: 940px;
     }
 }
+
 @media(max-width: 768px) {
     .container__animal {
         max-width: 639px;
     }
 }
+
+@media(max-width: 400px) {
+    .container__animal {
+        max-width: 384px;
+    }
+}
+
 .animal__ellispe {
     position: relative;
     width: 465px;
@@ -60,16 +80,26 @@
     .animal__ellispe {
         width: 366px;
         height: 366px;
-        margin-right: 9.195rem;
-        margin-top: -9px;
+        margin-right: 9.25rem;
+        margin-top: -11px;
     }
 }
+
 @media(max-width: 768px) {
     .animal__ellispe {
         width: 237px;
         height: 237px;
         margin-right: 4.437rem;
-        margin-top: 2.73rem;
+        margin-top: 2.783rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .animal__ellispe {
+        width: 119.09px;
+        height: 119.09px;
+        margin-right: 2.4rem;
+        margin-top: 3.5rem;
     }
 }
 
@@ -88,12 +118,23 @@
         height: 320px;
     }
 }
+
 @media(max-width: 768px) {
     .ellipse__box {
         width: 255.64px;
         height: 204.38px;
-        left: 54px;
-        top: -14px;
+        left: 51.8px;
+        top: -15.3px;
+    }
+}
+
+@media(max-width: 400px) {
+    .ellipse__box {
+        width: 128.13px;
+        height: 110.44px;
+        left: 19.5px;
+        top: 19px;
+        letter-spacing: 0.03em;
     }
 }
 
@@ -112,15 +153,23 @@
     .ellipse__text {
         font-size: 5.31rem;
         line-height: 4rem;
-        padding-top: 3.25rem;
-        padding-right: 2.1rem;
+        padding-top: 3.28rem;
+        padding-right: 1.94rem;
     }
 }
+
 @media(max-width: 768px) {
     .ellipse__text {
         font-size: 3.393rem;
         line-height: 2.562rem;
+    }
+}
 
+@media(max-width: 400px) {
+    .ellipse__text {
+        font-size: 1.75rem;
+        line-height: 1.312rem;
+        padding: 0;
     }
 }
 
@@ -130,15 +179,20 @@
 
 @media(max-width: 1200px) {
     .ellipse__text span {
-        margin-left: -0.562rem;
-    }
-}
-@media(max-width: 768px) {
-    .ellipse__text span {
-        margin-left: -0.762rem;
+        margin-left: -0.51rem;
     }
 }
 
+@media(max-width: 768px) {
+    .ellipse__text span {
+        margin-left: -0.65rem;
+    }
+}
+@media(max-width: 400px) {
+    .ellipse__text span {
+        margin-left: 0rem;
+    }
+}
 .animal__btn {
     width: 298px;
     height: 54px;
@@ -155,17 +209,26 @@
 
 @media(max-width: 1200px) {
     .animal__btn {
-        margin-top: 2.9rem;
-        margin-right: 6.6rem;
+        margin-top: 3rem;
+        margin-right: 6.7rem;
     }
 }
+
 @media(max-width: 768px) {
     .animal__btn {
-      margin: 0;
-      align-self: flex-start;
-      margin: -0.1rem 0 0 1.25rem;
+        margin: 0;
+        align-self: flex-start;
+        margin: -0.15rem 0 0 1.20rem;
     }
 }
+@media(max-width: 420px) {
+    .animal__btn {
+        margin: 0;
+        align-self: center;
+        margin: 4.155rem 0 0 0rem;
+    }
+}
+
 .animal__btn button {
     font-family: 'Roboto';
     font-style: normal;

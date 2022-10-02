@@ -7,7 +7,13 @@
 
 @media(max-width: 1200px) {
     .pickandfeed {
-        padding: 1.88rem 0 3.2rem 0;
+        padding: 1.88rem 0 3.07rem 0;
+    }
+}
+
+@media(max-width: 320px) {
+    .pickandfeed {
+        padding: 1.2rem 0.625rem 1.3rem 0.625rem;
     }
 
 }
@@ -27,13 +33,34 @@
     }
 }
 
+@media(max-width: 768px) {
+    .container__pickandfeed {
+        max-width: 640px;
+    }
+}
+
+@media(max-width: 320px) {
+    .container__pickandfeed {
+        max-width: 320px;
+        padding-bottom: 30px;
+    }
+}
+
 .pickandfeed-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 
+}
+
+@media(max-width: 768px) {
+    .pickandfeed-wrapper {
+        padding: 0 20px;
+       
+    }
 }
 
 .pickandfeed__title {
@@ -53,6 +80,22 @@
     }
 }
 
+@media(max-width: 640px) {
+    .pickandfeed__title {
+        padding: 0;
+        font-size: 42px;
+        line-height: 120%;
+    }
+}
+
+@media(max-width: 320px) {
+    .pickandfeed__title {
+        padding: 1.3rem 0 0 0;
+        font-size: 1.5rem;
+        line-height: 1.812rem;
+    }
+}
+
 .pickandfeed__subtitle {
     font-family: 'Roboto';
     font-style: normal;
@@ -64,9 +107,30 @@
     align-self: flex-start;
 }
 
+
 @media(max-width: 1200px) {
     .pickandfeed__subtitle {
         padding: 1.4rem 0 0 3.05rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .pickandfeed__subtitle {
+        padding: 1.3rem 0.1rem 0 0;
+        font-size: 22px;
+        line-height: 120%;
+        align-self: flex-start;
+    }
+}
+
+@media(max-width: 320px) {
+    .pickandfeed__subtitle {
+        width: 110%;
+        padding: 0.61rem 0.1rem 0 0;
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        margin-left: -11px;
+        text-align: center;
     }
 }
 
@@ -86,6 +150,18 @@
     }
 }
 
+@media(max-width: 640px) {
+    .pickandfeed__text {
+        padding: 1.2rem 0 0 0;
+    }
+}
+
+@media(max-width: 320px) {
+    .pickandfeed__text {
+        display: none;
+    }
+}
+
 .text-up {
     font-weight: 500;
 }
@@ -93,6 +169,12 @@
 @media(max-width: 1200px) {
     .text-up {
         padding-right: 2.81rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .text-up {
+        padding-right: 0rem;
     }
 }
 
@@ -109,12 +191,15 @@
     }
 }
 
+@media(max-width: 640px) {
+    .text-down {
+        width: 100%;
+    }
+}
 
 .text-down a {
     border-bottom: 1px solid #FE9013;
 }
-
-
 
 .pickandfeed__box {
     display: flex;
@@ -122,13 +207,34 @@
     justify-content: center;
     align-items: center;
     width: 65.94%;
-    /* border: 1px solid black; */
+    
     margin: 3.75rem 0 0 0;
 }
 
 @media(max-width: 1200px) {
     .pickandfeed__box {
         margin: 2.4rem 0 0 0;
+        width: 100%;
+        max-width: 764px;
+    }
+}
+
+@media(max-width: 768px) {
+    .pickandfeed__box {
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media(max-width: 640px) {
+    .pickandfeed__box {
+        margin: 1.8rem 0 0 0;
+    }
+}
+
+@media(max-width: 320px) {
+    .pickandfeed__box {
+        margin: 1.2rem 0 0 0;
     }
 }
 
@@ -141,6 +247,13 @@
     color: #333B41;
 }
 
+@media(max-width: 320px) {
+    .pickandfeed__box-subtitle {
+        font-size: 1.5rem;
+        line-height: 1.812rem;
+    }
+}
+
 /* 764px */
 .pickandfeed__box-pay {
     display: flex;
@@ -148,12 +261,43 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap: 3.926%;
+    gap: 30px;
     padding: 2.5rem 0 0 0;
 }
+
 @media(max-width: 1200px) {
     .pickandfeed__box-pay {
         gap: 1.87rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .pickandfeed__box-pay {
+        width: 100%;
+        max-width: 765px;
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 768px) {
+    .pickandfeed__box-pay {
+        position: relative;
+        max-width: 600px;
+        justify-content: start;
+        gap: 2.625rem;
+    }
+}
+
+@media(max-width: 640px) {
+    .pickandfeed__box-pay {
+        margin-top: -1.25rem;
+    }
+}
+
+@media(max-width: 620px) {
+    .pickandfeed__box-pay {
+        flex-direction: column;
+        gap: 1.6rem;
     }
 }
 
@@ -161,6 +305,12 @@
     width: 168px;
     height: 244px;
     text-align: center;
+}
+
+@media(max-width: 320px) {
+    .box__pay-card:nth-child(3) {
+        margin-bottom: 1rem;
+    }
 }
 
 .pay__card-img {
@@ -189,8 +339,66 @@
     text-align: left;
 }
 
+@media(max-width: 620px) {
+    .pay__card-text {
+        padding: 0.6rem 0 0 0;
+        text-align: left;
+    }
+}
+
 .box__pay-img {
     margin-top: -5.625rem;
+}
+
+@media(max-width: 768px) {
+    .box__pay-img {
+        position: absolute;
+        left: 138px;
+        top: 113.4px;
+    }
+
+    .box__pay-img:nth-child(2) {
+        position: absolute;
+        left: 346px;
+        top: 113.4px;
+
+    }
+}
+
+@media(max-width: 620px) {
+    .box__pay-img {
+        position: relative;
+        left: 97px;
+        top: 10px;
+        transform: rotate(-275deg);
+        -webkit-transform: rotate(-275deg);
+        -moz-transform: rotate(-275deg);
+        -ms-transform: rotate(-275deg);
+        -o-transform: rotate(-275deg);
+    }
+
+    .box__pay-img:nth-child(2) {
+        position: relative;
+        left: 98px;
+        top: 15px;
+        -webkit-transform: rotate(-275deg);
+        -moz-transform: rotate(-275deg);
+        -ms-transform: rotate(-275deg);
+        -o-transform: rotate(-275deg);
+    }
+}
+
+.img__arrow {
+    width: 69px;
+    height: 35.08px;
+    background: url(../../../assets/icons/arrowBig.svg);
+}
+
+@media(max-width: 768px) {
+    .img__arrow {
+        background: url(../../../assets/icons/bigArrowgreen.svg) no-repeat;
+        width: 100px;
+    }
 }
 
 .pickandfeed__button {
@@ -210,12 +418,28 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 @media(max-width: 1200px) {
     .pickandfeed__button {
         margin-top: 4.4rem;
         margin-bottom: 3.05rem;
     }
 }
+
+@media(max-width: 640px) {
+    .pickandfeed__button {
+        margin-top: 2.5rem;
+        margin-bottom: 1.82rem;
+    }
+}
+
+@media(max-width: 320px) {
+    .pickandfeed__button {
+        margin-top: 1rem;
+        margin-bottom: 0.45rem;
+    }
+}
+
 .pickandfeed__button:hover {
     transition: 0.4s;
     background: #E47209;
