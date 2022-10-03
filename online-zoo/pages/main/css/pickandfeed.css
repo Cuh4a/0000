@@ -52,14 +52,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    
-
 }
 
 @media(max-width: 768px) {
     .pickandfeed-wrapper {
         padding: 0 20px;
-       
     }
 }
 
@@ -421,14 +418,14 @@
 
 @media(max-width: 1200px) {
     .pickandfeed__button {
-        margin-top: 4.4rem;
-        margin-bottom: 3.05rem;
+        margin-top: 4.6rem;
+        margin-bottom: 3.0rem;
     }
 }
 
 @media(max-width: 640px) {
     .pickandfeed__button {
-        margin-top: 2.5rem;
+        margin-top: 2.6rem;
         margin-bottom: 1.82rem;
     }
 }
