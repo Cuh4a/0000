@@ -49,6 +49,7 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  overflow-x: hidden;
 
 }
 
@@ -88,6 +89,20 @@ body {
     height: 369px;
     background: url("../../../assets/images/donate-panda640px.svg") no-repeat;
     background-position: 100% 100%;
+    background-size: contain;
+  }
+}
+@media (max-width: 639px) {
+  .image {
+    background: url("../../../assets/images/donate-panda640px.svg") no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 320px) {
+  .image {
+    height: 221px;
+    background: url("../../../assets/images/panda_bg320px.svg") no-repeat;
+    background-position: 70% 100%;
     background-size: contain;
   }
 }

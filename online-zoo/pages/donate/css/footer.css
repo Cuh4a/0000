@@ -2,7 +2,7 @@
     width: 100%;
     background: #000000;
     color: var(--white-text-color);
-    margin-top: -1.33rem;
+    margin-top: -1.2rem;
 }
 
 @media(max-width: 1200px) {
@@ -19,7 +19,7 @@
 
 @media(max-width: 320px) {
     .footer {
-        margin-top: -1.36rem;
+        margin-top: -1.805rem;
     }
 }
 
