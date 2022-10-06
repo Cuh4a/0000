@@ -23,14 +23,15 @@
                     </a>
                 </div>
             </div>
-   
+
             <nav class="header__nav">
                 <div class="nav__logo-burger">
                     <div class="nav__logo">
                         <a href="./index.html" class="nav__logo-link">
                             <div class=" nav__box">
                                 <h1 class="nav__text-logo">PetStory online</h1>
-                                <img src="./online-zoo/assets/icons/bamboo-or.svg" class="nav__box-icon" alt="иконка бамбука">
+                                <img src="./online-zoo/assets/icons/bamboo-or.svg" class="nav__box-icon"
+                                    alt="иконка бамбука">
                             </div>
                         </a>
                     </div>
@@ -112,13 +113,10 @@
         <!---------------------------------------Start Section pets--------------------------------------->
         <section class="pets">
             <div class="wrap">
-                <button class="b-carousel__prev js-carousel__prev"><img src="./online-zoo/assets/icons/arrow-left.svg"
-                        alt=""></button>
-                <button class="b-carousel__next js-carousel__next"><img src="./online-zoo/assets/icons/arrow-right.svg"
-                        alt=""></button>
-                <div class="b-carousel js-carousel">
-                    <div class="b-carousel__wrap js-carousel__wrap">
-                        <div class="b-carousel__item">
+                <div class="slider">
+                    <div class="pets__wrapper">
+                        <div class="slide-item" id="left-slides"></div>
+                        <div class="slide-item" id="active-slides">
                             <div class="item__card">
                                 <div class="card__img">
                                     <img src="./online-zoo/assets/images/animals-card/giant-pandas.png" alt="pandas">
@@ -167,7 +165,7 @@
                             <!------------------------------- Three card ------------------------------------------->
                             <div class="item__card">
                                 <div class="card__img">
-                                    <img src="./online-zoo/assets/images/animals-card/gorillas.png" alt="gorillas">
+                                    <img src="../online-zoo/assets/images/animals-card/gorillas.png" alt="gorillas">
                                 </div>
                                 <div class="card__info">
                                     <div class="info">
@@ -190,8 +188,7 @@
                             <!------------------------------- Four card ------------------------------------------->
                             <div class="item__card">
                                 <div class="card__img">
-                                    <img src="./online-zoo/assets/images/animals-card/two-thoed-slots.png"
-                                        alt="two-thoed-slots">
+                                    <img src="./online-zoo/assets/images/animals-card/two-thoed-slots.png" alt="two-thoed-slots">
                                 </div>
                                 <div class="card__info">
                                     <div class="info">
@@ -258,9 +255,11 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="slide-item" id="right-slides"></div>
                     </div>
                 </div>
-            </div>
+                <button class="button button__arrow button__arrow-left"></button>
+                <button class="button button__arrow button__arrow-right"></button>
             </div>
             <!-- button sliders -->
             <form action="#"><button class="button__slider-last">choose your
