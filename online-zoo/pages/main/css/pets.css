@@ -38,15 +38,10 @@
     position: relative;
 }
 
-@media(max-width: 1000px) {
-    .wrap {
-        max-width: 940px;
-    }
-}
 
-@media(max-width: 940px) {
+@media(max-width: 990px) {
     .wrap {
-        max-width: 630px;
+        max-width: 640px;
     }
 }
 
@@ -58,7 +53,6 @@
 @media(max-width: 320px) {
     .wrap {
         max-width: 320px;
-        margin-right: 20px;
     }
 }
 .slider {
@@ -77,20 +71,22 @@
     justify-content: center;
     column-gap: 30px;
     row-gap: 20px;
+
 }
 
-@media(max-width: 1400px) {
+ @media(max-width: 1400px) {
     .slide-item {
         column-gap: 29px;
         row-gap: 92px;
     }
 }
 
-@media(max-width: 940px) {
+@media(max-width: 990px) {
     .slide-item {
         column-gap: 30px;
     }
 }
+
 @media(max-width: 630px) {
     .slide-item {
         column-gap: 0px;
@@ -109,15 +105,15 @@
     left: -1158px;
 }
 
-@media(max-width: 1000px) {
+ @media(max-width: 1000px) {
     .pets__wrapper {
-        left: -940px;
+        left: -1000px;
     }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 990px) {
     .pets__wrapper {
-        left: -630px;
+        left: -640px;
     }
 }
 
@@ -187,7 +183,7 @@
 @media(max-width: 1000px) {
     @keyframes move-right {
         from {
-            left: -940px;
+            left: -1000px;
         }
 
         to {
@@ -197,19 +193,19 @@
 
     @keyframes move-left {
         from {
-            left: -940px;
+            left: -1000px;
         }
 
         to {
-            left: -1880px;
+            left: -2000px;
         }
     }
 }
 
-@media(max-width: 940px) {
+@media(max-width: 990px) {
     @keyframes move-right {
         from {
-            left: -630px;
+            left: -640px;
         }
 
         to {
@@ -219,11 +215,11 @@
 
     @keyframes move-left {
         from {
-            left: -630px;
+            left: -640px;
         }
 
         to {
-            left: -1260px;
+            left: -1280px;
         }
     }
 }
@@ -242,6 +238,20 @@
         z-index: 3;
     }
 }
+@media(max-width: 1000px) {
+
+    .button__arrow-right {
+        top: 46.1%;
+        right: 35%;
+        z-index: 3;
+    }
+
+    .button__arrow-left {
+        top: 46.1%;
+        left: 35%;
+        z-index: 3;
+    }
+}
 
 @media(max-width: 640px) {
 
@@ -256,7 +266,7 @@
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 630px) {
 
     .button__arrow-left {
       display: none;

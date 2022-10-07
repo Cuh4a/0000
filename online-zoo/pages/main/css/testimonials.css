@@ -73,42 +73,87 @@
 }
 
 .testimonials__slider {
-    overflow-x: hidden;
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
     width: 100%;
-    gap: 30px;
-    padding-top: 2.937rem;
+    position: relative;
+    max-width: 1230px;
+    overflow: hidden;
 }
+
 
 @media(max-width: 1200px) {
     .testimonials__slider {
-        gap: 30px;
         padding-top: 2rem;
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width:990px) {
     .testimonials__slider {
-        flex-direction: column;
-        gap: 15px;
-        height: 400px;
-        overflow-y: hidden;
+        height: 490px;
     }
 }
 
 @media(max-width: 320px) {
     .testimonials__slider {
-        height: 380px;
-        padding: 1.2rem 0.625rem 0 0.625rem;
+        padding: 2.2rem 0.625rem 0 0.625rem;
     }
 }
 
+.slider__wrap {
+    position: relative;
+    box-sizing: border-box;
+    transition: 700ms;
+    width: 3460px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 29px;
+    padding-top: 2.937rem;
+    left: 0;
+}
 
+@media(max-width: 990px) {
+    .slider__wrap {
+        width: 600px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 60px;
+    }
+}
+@media(max-width: 640px) {
+    .slider__wrap {
+        width: 600px;
+        flex-direction: column;
+        justify-content: center;
+        position: static;
+    }
+}
+
+.slider__item {
+    min-width: 268px;
+    min-height: 391px;
+}
+
+@media(max-width: 990px) {
+    .slider__item {
+        min-width: 600px;
+        min-height: 109px;
+    }
+}
+
+@media(max-width: 630px) {
+    .slider__item {
+        min-width: 300px;
+        min-height: 109px;
+    }
+}
 
 .slider__slide {
-    width: 22.2%;
+    /* width: 22.2%; */
     min-width: 268px;
     min-height: 391px;
     display: flex;
@@ -128,7 +173,7 @@
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 990px) {
     .slider__slide {
         width: 100%;
         min-width: 598px;
@@ -140,7 +185,6 @@
     .slider__slide {
         width: 100%;
         min-width: 299px;
-
     }
 }
 
@@ -163,7 +207,7 @@
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 990px) {
     .slide__fon {
         width: 99.2%;
         height: 106px;
@@ -263,7 +307,7 @@
     }
 }
 
-@media(max-width: 1200px) {
+@media(max-width:990px) {
     .pickandfeed__range {
         display: none;
     }
@@ -297,18 +341,18 @@ input[type='range']::-webkit-slider-runnable-track {
 }
 
 input[type='range']::-webkit-slider-thumb {
-    width: 15px;
+    width: 5%;
     -webkit-appearance: none;
     height: 8px;
     cursor: pointer;
     background: #FE9013;
-    box-shadow: -78px 0 0 78px #FE9013;
-    border-radius: 5px;
+    box-shadow: -8px 0 0 8px #FE9013;
+    border-radius: 15px;
 }
 
 @media(max-width: 1200px) {
     input[type='range']::-webkit-slider-thumb {
-        box-shadow: -35px 0 0 35px #FE9013;
+        box-shadow: -28px 0 0 28px #FE9013;
         padding: 5px 0;
     }
 }
@@ -425,5 +469,5 @@ input[type='range']::-webkit-slider-thumb {
         background-size: contain;
         background: url(../../../assets/images/flowers/leav_foto320px.svg) no-repeat;
         background-position: 99% 40px;
-}
+    }
 }
