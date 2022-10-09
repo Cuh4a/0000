@@ -507,9 +507,10 @@
     left: -34px;
 }
 
-.step-wizard-item:nth-child(3) .progress-label {
+.progress-label.active-item {
     color: #FE9013;
 }
+
 
 .step-wizard-item .progress-label:hover {
     color: #FE9013;
@@ -526,10 +527,7 @@
         display: none;
     }
 
-    .step-wizard-item:nth-child(3) .progress-label {
-        color: #FE9013;
-    }
-
+   
     .step-wizard-item {
         left: -48px;
     }
@@ -547,11 +545,6 @@
     .step-wizard-item:nth-child(3) {
         display: none;
     }
-
-    .step-wizard-item:nth-child(6) .progress-label {
-        color: #FE9013;
-    }
-
     .step-wizard-item {
         left: -25px;
     }
@@ -613,7 +606,7 @@
     top: -5px;
     z-index: 10;
     color: transparent;
-    background: #FFEE2E;
+    background: #FFFFFF;
     cursor: pointer;
     background-clip: content-box;
     border: 1px solid transparent;
@@ -624,7 +617,8 @@
     -o-transition: transform 0.5s ease, border 0.5s ease;
 }
 
-.step-wizard-item span:nth-child(1):hover {
+.progress-count.active-count {
+    background: #FFEE2E;
     border: 1px solid #f4953b;
     padding: 2px 2px;
     transform: scale(1.8);
@@ -632,6 +626,11 @@
     -moz-transform: scale(1.8);
     -ms-transform: scale(1.8);
     -o-transform: scale(1.8);
+}
+
+.step-wizard-item span:nth-child(1):hover {
+    border: 1px solid #f4953b;
+    transform: scale(1.8);
 }
 
 .progress-label {
@@ -726,6 +725,8 @@ input[type="number"] {
     background: transparent;
     border: 1px solid #929699;
     border-radius: 2px;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 input[type="number"]::-webkit-outer-spin-button,

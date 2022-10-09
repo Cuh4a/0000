@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Penguins",
+        "image": "./online-zoo/assets/images/animals-card/penguins.png",
+        "location": "Native to Antarctica",
+        "icon": "./online-zoo/assets/icons/meet-icons.svg"
+    },
+    {
+        "name": "Cheats",
+        "image": "./online-zoo/assets/images/animals-card/cheats.png",
+        "location": "Native to Africa",
+        "icon": "./online-zoo/assets/icons/meet-icons.svg"
+    },
+    {
+        "name": "Eagles",
+        "image": "./online-zoo/assets/images/animals-card/eagles.png",
+        "location": "Native to South Africa",
+        "icon": "./online-zoo/assets/icons/meet-icons.svg"
+    },
+    {
+        "name": "Giant Pandas",
+        "image": "./online-zoo/assets/images/animals-card/giant-pandas.png",
+        "location": "Native to Southwest China",
+        "icon": "./online-zoo/assets/icons/fruit-icons.svg"
+    },
+    {
+        "name": "Two-toed-sloth",
+        "image": "./online-zoo/assets/images/animals-card/two-thoed-slots.png",
+        "location": "Mesoamerica, South America",
+        "icon": "./online-zoo/assets/icons/fruit-icons.svg"
+    },
+    {
+        "name": "Gorillas",
+        "image": "./online-zoo/assets/images/animals-card/gorillas.png",
+        "location": "Native to Congo",
+        "icon": "./online-zoo/assets/icons/fruit-icons.svg"
+    },
+    {
+        "name": "Alligators",
+        "image": "./online-zoo/assets/images/animals-card/alligator.png",
+        "location": "Native to Southeastern U. S.",
+        "icon": "./online-zoo/assets/icons/meet-icons.svg"
+    }
+    ,
+    {
+        "name": "Gorillas",
+        "image": "./online-zoo/assets/images/animals-card/gorilla.png",
+        "location": "Native to Congo",
+        "icon": "./online-zoo/assets/icons/meet-icons.svg"
+    }
+]
